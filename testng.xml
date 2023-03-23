@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Deepa Deva/apache-maven-3.9.0-bin (3)/apache-maven-3.9.0/Testng_1/src/logical_testing">
+        <classes>
+            <class name="logical_testing.TestEmployeeDetails">
+                <methods>
+                    <include name="testCalculateAppriasal"/>
+                    <include name="testCalculateYearlySalary"/>
+                </methods>
+            </class>
+            <class name="logical_testing.logic_1">
+                <methods>
+                    <include name="evenodd"/>
+                    <include name="subtraction"/>
+                    <include name="multiplication"/>
+                </methods>
+            </class>
+            <class name="logical_testing.logic_2">
+                <methods>
+                    <include name="add"/>
+                    <include name="mul"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
